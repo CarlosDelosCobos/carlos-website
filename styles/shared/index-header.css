@@ -1,0 +1,76 @@
+.index-header {
+  background-color: rgb(225, 225, 225);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.index-header-left-section {
+  width: 200px;
+}
+
+@media (max-width: 800px) {
+  .index-header-left-section {
+    width: unset;
+  }
+}
+
+.header-link {
+  display: inline-block;
+  padding: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin-right: 8px;
+}
+
+.header-link:hover {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.inmobiliaria-logo {
+  height: 50px;
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
+
+@media (max-width: 575px) {
+  .inmobiliaria-logo {
+    display: none;
+  }
+}
+
+.index-header-right-section {
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.general-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.general-text {
+  font-size: 18px;
+  font-weight: 700;
+}

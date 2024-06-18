@@ -5,5 +5,44 @@
 .main-info {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 40px;
+  row-gap: 10px;
+}
+
+.caja-texto {
+  background-color: rgb(245, 245, 245);
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.quienes-somos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.quienes-somos-1 {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  border-radius: 100px;
+  padding: 15px;
+  position: relative;
+  left: 40%;
+  color: white;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.quienes-somos-2 {
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  margin-top: 10px;
+  width: 600px;
+  left: 27.5%;
+  font-size: 15px;
+  font-weight: 500;
 }

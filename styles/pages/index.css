@@ -8,7 +8,7 @@
   row-gap: 10px;
 }
 
-.caja-texto {
+.contenedor {
   background-color: rgb(245, 245, 245);
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -20,29 +20,34 @@
   grid-template-columns: 1fr;
 }
 
-.quienes-somos-1 {
-  display: inline-block;
+.caja-titulo-quienes-somos {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo-quienes-somos {
   text-align: center;
   background-color: black;
   border-radius: 100px;
   padding: 15px;
-  position: relative;
-  left: 40%;
   color: white;
   margin-top: 10px;
   font-size: 25px;
   font-weight: 700;
 }
 
-.quienes-somos-2 {
-  display: inline-block;
-  position: relative;
+.caja-texto-quienes-somos {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-quienes-somos {
   text-align: justify;
   background-color: rgb(245, 245, 245);
   color: black;
   margin-top: 10px;
-  width: 600px;
-  left: 27.5%;
   font-size: 15px;
   font-weight: 500;
 }

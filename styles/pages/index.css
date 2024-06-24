@@ -51,6 +51,15 @@
   font-weight: 500;
 }
 
+.texto-contacto {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 @media (max-width: 575px) {
   .caja-texto {
     width: 300px;
@@ -70,4 +79,16 @@
   color: black;
   font-size: 12px;
   font-weight: 700;
+}
+
+.whatsapp-logo {
+  height: 80px;
+  width: 80px;
+}
+
+.caja-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
 }
